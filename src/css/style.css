@@ -1,0 +1,133 @@
+/* screen-width < 992px */
+
+/* Typography */
+html {
+    font-size: 10px;
+
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3rem;
+
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 2rem;
+
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0;
+    font-family: 'Arvo', serif;
+}
+
+/* Common styling */
+ul {
+    font-size: 1.2rem;
+    /* Bullet point is equal to font size */
+    padding-left: 1.2rem;
+
+    font-family: 'Arvo', serif;
+}
+
+/* site specific */
+body {
+    margin: 0;
+
+    background-color: #FAFAFA;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+
+    background-color: #F0F0F0;
+}
+
+#header-image {
+  height: 150px;
+
+  background-image: url("http://vaja.rehn.org/images/illustrations/flygandejordval.jpg");
+
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  background-position: center;
+}
+
+#header-logo {
+      text-align: center;
+
+      padding: 10px;
+
+      border-bottom: 5px solid #D0D0D0;
+      border-top: 5px solid #D0D0D0;
+}
+
+header h1, header h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+menu {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+menu ul {
+    list-style: none;
+    padding: 0;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+menu a {
+    color: #529ECC;
+    text-decoration: none;
+}
+
+.content {
+    padding: 10px;
+}

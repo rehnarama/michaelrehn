@@ -1,0 +1,21 @@
+/* screen-width >= 992px */
+
+html {
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 970px;
+}
+
+#header-image {
+  height: 250px;
+}
+
+menu ul {
+    justify-content: center;
+}
+
+menu li {
+    margin: 0 20px 0 20px;
+}

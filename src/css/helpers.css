@@ -1,0 +1,19 @@
+.inline-block {
+    display: inline-block;
+}
+
+.no-margin {
+    margin: 0;
+}
+.no-margin-l {
+    margin-left: 0;
+}
+.no-margin-r {
+    margin-right: 0;
+}
+.no-margin-b {
+    margin-bottom: 0;
+}
+.no-margin-t {
+    margin-top: 0;
+}
