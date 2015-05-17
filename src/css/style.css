@@ -63,6 +63,10 @@ ul {
     font-family: 'Arvo', serif;
 }
 
+a {
+    color: #0078D7;
+}
+
 /* site specific */
 body {
     margin: 0;
@@ -130,4 +134,8 @@ menu a {
 
 .content {
     padding: 10px;
+}
+
+.flex {
+    flex-wrap: wrap;
 }

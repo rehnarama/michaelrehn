@@ -19,3 +19,7 @@ menu ul {
 menu li {
     margin: 0 20px 0 20px;
 }
+
+.flex {
+    flex-wrap: nowrap;
+}
