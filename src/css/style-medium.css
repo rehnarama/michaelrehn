@@ -23,3 +23,19 @@ menu li {
 .flex {
     flex-wrap: nowrap;
 }
+
+.card {
+    flex-basis: 0;
+    height: 320px;
+}
+
+.card:hover {
+    flex-grow: 3;
+}
+.card:hover .card-content {
+    top: 0;
+}
+
+.card-content {
+    top: calc(100% - 40px);
+}
