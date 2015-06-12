@@ -21,7 +21,6 @@
 
     <header>
         <article id="header-image">
-            <article id="frosted-glass"></article>
         </article>
 
         <article id="header-logo">
@@ -134,15 +133,5 @@
     </section>
 
 </body>
-
-<script>
-    var glass = document.getElementById('frosted-glass');
-    window.addEventListener('scroll', function(event) {
-        var blur = event.pageY / 10;
-
-        glass.style.filter = 'blur('+ Math.min(20, blur) +'px)';
-
-    });
-</script>
 
 </html>

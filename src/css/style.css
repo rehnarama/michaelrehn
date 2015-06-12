@@ -98,18 +98,6 @@ header {
   overflow: hidden;
 }
 
-#frosted-glass {
-    height: 100%;
-    width: 100%;
-
-    -webkit-background-size: cover;
-    background-size: cover;
-
-    background-position: center;
-
-    background-image: url("http://vaja.rehn.org/images/illustrations/flygandejordval.jpg");
-}
-
 #header-logo {
       text-align: center;
 
