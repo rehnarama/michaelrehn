@@ -60,6 +60,8 @@ ul {
     /* Bullet point is equal to font size */
     padding-left: 1.2rem;
 
+    margin-bottom: 1rem;
+
     font-family: 'Arvo', serif;
 }
 
