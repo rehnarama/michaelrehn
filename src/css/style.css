@@ -108,7 +108,7 @@ header {
 #header-image {
   height: 150px;
 
-  background-image: url("/img/bg1.jpg");
+  background-image: url("img/bg1.jpg");
 
   -webkit-background-size: cover;
   background-size: cover;
@@ -208,13 +208,13 @@ menu a {
 }
 
 .rehnamusiken {
-    background-image: url('/img/rehnamusiken.png');
+    background-image: url('img/rehnamusiken.png');
 }
 
 .portfoliovaja {
-    background-image: url('/img/portfoliovaja.png');
+    background-image: url('img/portfoliovaja.png');
 }
 
 .peetiskingdom {
-    background-image: url('/img/peetiskingdom.png');
+    background-image: url('img/peetiskingdom.png');
 }
