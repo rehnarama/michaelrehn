@@ -2,115 +2,114 @@
 
 /* Typography */
 html {
-    font-size: 10px;
+  font-size: 10px;
 
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 
-    font-weight: normal;
+  font-weight: normal;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 
-    font-weight: normal;
+  font-weight: normal;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 
-    font-weight: normal;
+  font-weight: normal;
 }
 
 h4 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 h5 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h6 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 p {
-    margin-top: 0;
-    font-family: 'Arvo', serif;
+  margin-top: 0;
+  font-family: 'Arvo', serif;
 }
 
 /* Common styling */
 ul {
-    font-size: 1.5rem;
-    /* Bullet point is equal to font size */
-    padding-left: 1.5rem;
+  font-size: 1.5rem;
+  /* Bullet point is equal to font size */
+  padding-left: 1.5rem;
 
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 
-    font-family: 'Arvo', serif;
+  font-family: 'Arvo', serif;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 a {
-    color: #0078D7;
+  color: #0078D7;
 }
 
 /* site specific */
 body {
-    margin: 0;
+  margin: 0;
 
-    background-color: #FAFAFA;
+  background-color: #FAFAFA;
 }
 
 #links {
-    position: absolute;
-    right: 2rem;
-    top: 25%;
-    font-size: 1.2rem;
+  position: absolute;
+  right: 2rem;
+  font-size: 1.2rem;
 }
 
 .link-text {
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }
 
 #github-link, #linkedin-link {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #github-icon, #linkedin-icon {
-    height: 2rem;
-    margin-left: 0.5em;
+  height: 2rem;
+  margin-left: 0.5em;
 }
 
 .wrapper {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 
-    background-color: #F0F0F0;
+  background-color: #F0F0F0;
 }
 
 #header-image {
@@ -127,102 +126,121 @@ header {
 }
 
 #header-logo {
-    position: relative;
+  position: relative;
 
-      text-align: center;
+  text-align: center;
 
-      padding: 10px;
+  padding: 10px;
 
-      border-bottom: 5px solid #D0D0D0;
-      border-top: 5px solid #D0D0D0;
+  border-bottom: 5px solid #D0D0D0;
+  border-top: 5px solid #D0D0D0;
 }
 
 header h1, header h5 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 menu {
-    padding: 0;
-    margin: 10px 0 0 0;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
 menu ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 menu a {
-    color: #529ECC;
-    text-decoration: none;
+  color: #529ECC;
+  text-decoration: none;
 }
 
 .content {
-    padding: 10px;
+  padding: 10px;
 }
 
 .flex {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .card {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
 
-    flex-grow: 1;
-    flex-basis: 100%;
+  flex-grow: 1;
+  flex-basis: 100%;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 
-    position: relative;
+  position: relative;
 }
 
 
 .card-content {
-    background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 
-    overflow: hidden;
+  overflow: hidden;
 
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .card-header {
-    line-height: 40px;
-    margin: 0;
-    text-align: center;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
 }
 
 .card-header a {
-    color: #FFF;
+  color: #FFF;
 }
 
 .card-desc {
-    color: #FFF;
-    padding: 10px;
+  color: #FFF;
+  padding: 10px;
 }
 
 .rehnamusiken {
-    background-image: url('../img/rehnamusiken.png');
+  background-image: url('../img/rehnamusiken.png');
 }
 
 .portfoliovaja {
-    background-image: url('../img/portfoliovaja.png');
+  background-image: url('../img/portfoliovaja.png');
 }
 
 .peetiskingdom {
-    background-image: url('../img/peetiskingdom.png');
+  background-image: url('../img/peetiskingdom.png');
 }
+
+#contact-info {
+  font-style: normal;
+  font-size: 1.4rem;
+
+  display: grid;
+  grid-template: auto auto / 50% 50%;
+  grid-column-gap: 4px;
+  margin-top: 8px;
+}
+
+.contact-category {
+  text-align: right;
+}
+
+.category-value {
+  text-align: left;
+}
+
