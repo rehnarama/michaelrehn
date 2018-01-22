@@ -63,9 +63,8 @@
 .timeline-header {
     display: inline-block;
 
-    height: 4.5rem;
-    text-align: center;
-    line-height: 4.5rem;
+    margin-top: 1.25rem; /* timeline-height = 4.5rem / 2 - 1em */
+    margin-bottom: 1.25rem;
 
-    margin: 0;
+    text-align: left;
 }

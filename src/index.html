@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,179 +15,194 @@
 
     <link rel="stylesheet" href="css/helpers.css">
     <link rel="stylesheet" href="css/timeline.css">
-</head>
+  </head>
 
-<body>
+  <body>
 
     <header>
-        <!-- <article id="header-image">
-</article> -->
+      <!-- <article id="header-image">
+        </article> -->
 
         <article id="header-logo">
-            <a href="https://github.com/rehnarama" id="github-link" target="_blank"><img src="img/GitHub-Mark-64px.png" alt="Github" id="github-icon"></a>
-            <h1>Michael Rehn</h1>
-            <h5>Programmerare och webbutvecklare</h5>
+          <aside id="links">
+            <a href="https://github.com/rehnarama" id="github-link" target="_blank">
+              <span class="link-text">@rehnarama</span>
+              <img src="img/GitHub-Mark-64px.png" alt="Github's icon" id="github-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/michael-rehn-uu" id="linkedin-link" target="_blank">
+              <span class="link-text">/in/michael-rehn-uu</span>
+              <img src="img/linkedin.png" alt="LinkedIn's icon" id="linkedin-icon">
+            </a>
+          </aside>
+          <h1>Michael Rehn</h1>
+          <h5>Programmerare och webbutvecklare</h5>
         </article>
     </header>
     <section class="wrapper">
-        <section class="content">
+      <section class="content">
+        <!--
+          <article class="projects">
+          <a name="projects"></a>
+          <h1>Projekt</h1>
+          <p>Personliga projekt som jag har genomfört</p>
+
+          <section class="flex accordion">
+          <article class="rehnamusiken card">
+
+          <div class="card-content">
+          <h5 class="card-header"><a href="/music" target="_blank">Rehnamusiken</a></h5>
+          <div class="card-desc">
+          <p>
+          En simpel musikspelare i webben. Förutom att spela musik på en snyggt sätt visualiserar den musiken, hämtar metadata från självaste filen, om artistbild saknas letar den efter det via spotifys API.
+          </p>
+          <p>
+          Använda teknologier är:
+          </p>
+          <ul>
+          <li>WebAudio</li>
+          <li>ReactJS</li>
+          <li>AJAX</li>
+          </ul>
+          </div>
+          </div>
+          </article>
+          <article class="portfoliovaja card">
+          <div class="card-content">
+          <h5 class="card-header"><a href="http://vaja.rehn.org" target="_blank">Portfolio Vaja</a></h5>
+          <div class="card-desc">
+          <p>
+          Ett simpelt portfolio skapad som ett projekt i kursen webbutveckling. Förutom en simpel gallerifunktion så är sidan responsiv, har touchkontroller och massa andra små fiffigheter för att öka användarbarheten.
+          </p>
+          <p>Använda teknologier är:</p>
+          <ul>
+          <li>AngularJS</li>
+          <li>Bootstrap</li>
+          </ul>
+          </div>
+          </div>
+          </article>
+          <article class="peetiskingdom card">
+          <div class="card-content">
+          <h5 class="card-header"><a href="/peetiskingdom" target="_blank">Peeti's Kingdom</a></h5>
+          <div class="card-desc">
+          <p>
+          Ett fantasy/pussel/äventyrsspel som strävar att undvika allt våldsamt! Spelet är skapat i samband med gymnasiarbetet som genomförs i år tre på gymnasiet.
+          </p>
+          <p>
+          Använda teknologier är:
+          </p>
+          <ul>
+          <li>WebAudio</li>
+          <li>Phaser</li>
+          </ul>
+          </div>
+          </div>
+          </article>
+          </section>
+
+          </article>
+        -->
+        <article class="cv">
+          <h1>CV</h1>
+          <a name="cv"></a>
+
+          <section id="cv-content">
+            <article>
+              <h2>Arbete</h2>
+              <div class="timeline">
+                <div class="timeline-entry">
+                  <span class="timeline-date">2017</span>
+                  <h4 class="timeline-header">Uppsala Universitet</h4>
+                  <div class="timeline-desc">
+                    <p>Labbassistent till kursen <a href="http://www.uu.se/utbildning/utbildningar/selma/kursplan/?kKod=1DL221">imperativ och objektorienterad programmeringsmetodik</a> på Uppsala Univeristet under höstterminen 2017.</p>
+                    <p>
+                    Som labbassistent i en denna kurs i programmeringsmetodik på grundnivå med fokus på målbaserad inlärning hjälpte jag inte bara studenter lösa olika problem gällande programmering, utan min roll var ockå att lyssna på elevers redovisande av olika så kallade mål. Dessa mål måste studenterna i fråga efterforska, implementera och sedan redovisa för en labbassistent som först lyssnar, sedan diskuterar och till sist antingen godkänner eller underkänner redovisningen. Den aktiva inlärningsform är inte bara givande för studenterna i sig, utan även för mig som labbassistent. Att ha en dialog med många olika programmerare med olika erfarenheter och kunskapsnivåer har givit mig insikt och enligt mitt tycke gjort mig själv till en bättre utvecklare.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-entry">
+                  <span class="timeline-date">2015</span>
+                  <h4 class="timeline-header">ICC Media & Sport</h4>
+                  <div class="timeline-desc">
+                    <p>Utvecklare på ICC Media & Sport med start sommaren 2015 med nuvarande deltidsanställning</p>
+                    <p>Arbetsområden inkluderar:</p>
+                    <ul>
+                      <li>Full-stack programmering i JavaScript, med teknologierna
+                        <ul>
+                          <li>Meteor-ramverket</li>
+                          <li>React-biblioteket</li>
+                        </ul>
+                      </li>
+                      <li>.NET-utveckling för klientapplikationer</li>
+                    </ul>
+                  </div>
+                </div><div class="timeline-entry">
+                  <span class="timeline-date">2014</span>
+                  <h4 class="timeline-header">YouLinker</h4>
+                  <div class="timeline-desc">
+                    <p>Programmerare på YouLinker AB mellan Augusti 2014 till December 2014.</p>
+                    <p>Arbetsområden inkluderade:</p>
+                    <ul>
+                      <li>
+                        Full-stack programmering i JavaScript, med teknologierna
+                        <ul>
+                          <li>ExpressJS</li>
+                          <li>AngularJS</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <h2>Utbildning</h2>
+              <div class="timeline">
+                <div class="timeline-entry">
+                  <span class="timeline-date">2016</span>
+                  <h4 class="timeline-header">Civilingenjörsprogrammet i informationsteknologi, Årskurs 2-5</h4>
+                  <div class="timeline-desc">
+                    <p>Studerar civilingenjörsprogrammet i informationsteknologi vid Uppsala Universitet. Förväntat examensår år 2020.</p>
+                    <p>Mina studier vid Uppsala Universitet har gett djupare fokus och förståelse för datorsystem, både lokala såsom distribuerade. Det har också gett mig djupare förståelse av hur utveckling sker i grupp och de olika roller som kan finnas inom ett tekniskt projekt. Vidare fokus har legat på informationsbehandling via till exempel analys av signaler och beräkningsvetenskapliga modeller, med inblickar av datorsäkerhet och systemdesign med fler kurser lämpliga inom området informationsteknologi.</p>
+                  </div>
+                </div><div class="timeline-entry">
+                  <span class="timeline-date">2015</span>
+                  <h4 class="timeline-header">Civilingenjör i Datateknik, Årskurs 1</h4>
+                  <div class="timeline-desc">
+                    <p>Studerade årskurs ett på civilingenjörsprogrammet i Datateknik på Lunds tekniska högskola.</p>
+                    <p>Starkt fokus på en grundläggande förståelse för programmering, algoritmer och datastrukturer. Gav även viktiga inblickar inom systemdesign.</p>
+                  </div>
+                </div>
+                <div class="timeline-entry">
+                  <span class="timeline-date">2012</span>
+                  <h4 class="timeline-header">Gymnasial Teknikutbildning</h4>
+                  <div class="timeline-desc">
+                    <p>Gymnasial teknikutbildning med inriktning på informations- och medieteknik.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <article>
+            <h2>Referenser</h2>
+            <p>Lämnas vid förfrågan</p>
             <!--
-            <article class="projects">
-                <a name="projects"></a>
-                <h1>Projekt</h1>
-                <p>Personliga projekt som jag har genomfört</p>
-
-                <section class="flex accordion">
-                    <article class="rehnamusiken card">
-
-                        <div class="card-content">
-                            <h5 class="card-header"><a href="/music" target="_blank">Rehnamusiken</a></h5>
-                            <div class="card-desc">
-                                <p>
-                                    En simpel musikspelare i webben. Förutom att spela musik på en snyggt sätt visualiserar den musiken, hämtar metadata från självaste filen, om artistbild saknas letar den efter det via spotifys API.
-                                </p>
-                                <p>
-                                    Använda teknologier är:
-                                </p>
-                                <ul>
-                                    <li>WebAudio</li>
-                                    <li>ReactJS</li>
-                                    <li>AJAX</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="portfoliovaja card">
-                        <div class="card-content">
-                            <h5 class="card-header"><a href="http://vaja.rehn.org" target="_blank">Portfolio Vaja</a></h5>
-                            <div class="card-desc">
-                                <p>
-                                    Ett simpelt portfolio skapad som ett projekt i kursen webbutveckling. Förutom en simpel gallerifunktion så är sidan responsiv, har touchkontroller och massa andra små fiffigheter för att öka användarbarheten.
-                                </p>
-                                <p>Använda teknologier är:</p>
-                                <ul>
-                                    <li>AngularJS</li>
-                                    <li>Bootstrap</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="peetiskingdom card">
-                        <div class="card-content">
-                            <h5 class="card-header"><a href="/peetiskingdom" target="_blank">Peeti's Kingdom</a></h5>
-                            <div class="card-desc">
-                                <p>
-                                    Ett fantasy/pussel/äventyrsspel som strävar att undvika allt våldsamt! Spelet är skapat i samband med gymnasiarbetet som genomförs i år tre på gymnasiet.
-                                </p>
-                                <p>
-                                    Använda teknologier är:
-                                </p>
-                                <ul>
-                                    <li>WebAudio</li>
-                                    <li>Phaser</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                </section>
-
-            </article>
+              <h3>Mikael Pettersson</h3>
+              <p>
+              Mikael@snowpeak.se, 0707-240 540 <br>
+              Teknikansvarig samt kollega på YouLinker
+              </p>
+              <h3>Dennis Fougner</h3>
+              <p>
+              dennis.fougner@screeninteraction.com, 0708-751 691 <br>
+              IT-chef på Screen Interaction AB. Programmerings- och IT-lärare från gymnasiet samt kollega på diverse mindre projekt.
+              </p>
             -->
-            <article class="cv">
-                <h1>CV</h1>
-                <a name="cv"></a>
-
-                <h2>Arbete</h2>
-                <div class="timeline">
-                    <div class="timeline-entry">
-                        <span class="timeline-date">2017</span>
-                        <h4 class="timeline-header">Uppsala Universitet</h4>
-                        <div class="timeline-desc">
-                            <p>Labbassistent till kursen <a href="http://www.uu.se/utbildning/utbildningar/selma/kursplan/?kKod=1DL221">imperativ och objektorienterad programmeringsmetodik</a> på Uppsala Univeristet under höstterminen 2017.</p>
-			    <p>
-				Som labbassistent i en denna kurs i programmeringsmetodik på grundnivå med fokus på målbaserad inlärning hjälpte jag inte bara studenter lösa olika problem gällande programmering, utan min roll var ockå att lyssna på elevers redovisande av olika så kallade mål. Dessa mål måste studenterna i fråga efterforska, implementera och sedan redovisa för en labbassistent som först lyssnar, sedan diskuterar och till sist antingen godkänner eller underkänner redovisningen. Den aktiva inlärningsform är inte bara givande för studenterna i sig, utan även för mig som labbassistent. Att ha en dialog med många olika programmerare med olika erfarenheter och kunskapsnivåer har givit mig insikt och enligt mitt tycke gjort mig själv till en bättre utvecklare.
-			    </p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <span class="timeline-date">2015</span>
-                        <h4 class="timeline-header">ICC Media & Sport</h4>
-                        <div class="timeline-desc">
-                            <p>Utvecklare på ICC Media & Sport med start sommaren 2015 med nuvarande deltidsanställning</p>
-                            <p>Arbetsområden inkluderar:</p>
-                            <ul>
-				<li>Full-stack programmering i JavaScript, med teknologierna
-				   <ul>
-				       <li>Meteor-ramverket</li>
-				       <li>React-biblioteket</li>
-				   </ul>
-				</li>
-				<li>.NET-utveckling för klientapplikationer</li>
-                            </ul>
-                        </div>
-                    </div><div class="timeline-entry">
-                        <span class="timeline-date">2014</span>
-                        <h4 class="timeline-header">YouLinker</h4>
-                        <div class="timeline-desc">
-                            <p>Programmerare på YouLinker AB mellan Augusti 2014 till December 2014.</p>
-                            <p>Arbetsområden inkluderade:</p>
-                            <ul>
-                                <li>
-				    Full-stack programmering i JavaScript, med teknologierna
-                                    <ul>
-                                        <li>ExpressJS</li>
-                                        <li>AngularJS</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <h2>Utbildning</h2>
-                <div class="timeline">
-                    <div class="timeline-entry">
-                        <span class="timeline-date">2016</span>
-                        <h4 class="timeline-header">Civilingenjörsprogrammet i informationsteknologi, Årskurs 2-5</h4>
-                        <div class="timeline-desc">
-                            <p>Studerar civilingenjörsprogrammet i informationsteknologi vid Uppsala Universitet. Förväntat examensår år 2020.</p>
-			    <p>Mina studier vid Uppsala Universitet har gett djupare fokus och förståelse för datorsystem, både lokala såsom distribuerade. Det har också gett mig djupare förståelse av hur utveckling sker i grupp och de olika roller som kan finnas inom ett tekniskt projekt. Vidare fokus har legat på informationsbehandling via till exempel analys av signaler och beräkningsvetenskapliga modeller, med inblickar av datorsäkerhet och systemdesign med fler kurser lämpliga inom området informationsteknologi.</p>
-                        </div>
-                    </div><div class="timeline-entry">
-                        <span class="timeline-date">2015</span>
-                        <h4 class="timeline-header">Civilingenjör i Datateknik, Årskurs 1</h4>
-                        <div class="timeline-desc">
-                            <p>Studerade årskurs ett på civilingenjörsprogrammet i Datateknik på Lunds tekniska högskola.</p>
-			    <p>Starkt fokus på en grundläggande förståelse för programmering, algoritmer och datastrukturer. Gav även viktiga inblickar inom systemdesign.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <span class="timeline-date">2012</span>
-                        <h4 class="timeline-header">Gymnasial Teknikutbildning</h4>
-                        <div class="timeline-desc">
-                            <p>Gymnasial teknikutbildning med inriktning på informations- och medieteknik.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <h2>Referenser</h2>
-                <p>Lämnas vid förfrågan</p>
-                <!--
-                <h3>Mikael Pettersson</h3>
-                <p>
-                    Mikael@snowpeak.se, 0707-240 540 <br>
-                    Teknikansvarig samt kollega på YouLinker
-                </p>
-                <h3>Dennis Fougner</h3>
-                <p>
-                    dennis.fougner@screeninteraction.com, 0708-751 691 <br>
-                    IT-chef på Screen Interaction AB. Programmerings- och IT-lärare från gymnasiet samt kollega på diverse mindre projekt.
-                </p>
-                -->
-            </article>
-        </section>
+          </article>
+        </article>
+      </section>
     </section>
 
-</body>
+  </body>
 
 </html>

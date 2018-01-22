@@ -80,18 +80,26 @@ body {
     background-color: #FAFAFA;
 }
 
-#github-link {
+#links {
     position: absolute;
     right: 2rem;
-    top: 50%;
+    top: 25%;
+    font-size: 1.2rem;
 }
 
-#github-icon {
-    height: 3rem;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+.link-text {
+    width: 100%;
+    text-align: right;
+}
+
+#github-link, #linkedin-link {
+    display: flex;
+    align-items: center;
+}
+
+#github-icon, #linkedin-icon {
+    height: 2rem;
+    margin-left: 0.5em;
 }
 
 .wrapper {
