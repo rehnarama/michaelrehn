@@ -56,3 +56,57 @@ menu li {
 #cv-content article:not(:last-child) {
   margin-right: 1em;
 }
+
+#contact-info {
+  grid-template: auto auto / 1fr auto auto 1fr;
+}
+
+#github-link {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-align: right;
+}
+#linkedin-link {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+#github-icon {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+#linkedin-icon {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+#telephone, #email {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.contact-category {
+  text-align: right;
+}
+
+#links {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.center {
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.center > *:first-child {
+  text-align: right;
+  width: 50%;
+  margin-right: 4px;
+}
+.center > *:last-child {
+  text-align: left;
+  width: 50%;
+}

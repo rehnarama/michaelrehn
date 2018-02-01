@@ -80,27 +80,6 @@ body {
   background-color: #FAFAFA;
 }
 
-#links {
-  position: absolute;
-  right: 2rem;
-  font-size: 1.2rem;
-}
-
-.link-text {
-  width: 100%;
-  text-align: right;
-}
-
-#github-link, #linkedin-link {
-  display: flex;
-  align-items: center;
-}
-
-#github-icon, #linkedin-icon {
-  height: 2rem;
-  margin-left: 0.5em;
-}
-
 .wrapper {
   width: 100%;
   margin: auto;
@@ -227,20 +206,33 @@ menu a {
 }
 
 #contact-info {
+  text-align: left;
   font-style: normal;
   font-size: 1.4rem;
 
   display: grid;
-  grid-template: auto auto / 50% 50%;
+  grid-template: auto auto auto auto / auto 1fr;
   grid-column-gap: 4px;
+  grid-row-gap: 4px;
   margin-top: 8px;
 }
 
 .contact-category {
-  text-align: right;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .category-value {
   text-align: left;
 }
-
+#telephone {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#email {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
