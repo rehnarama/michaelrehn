@@ -1,0 +1,14 @@
+.timeline-entry {
+  padding-left: 0rem;
+}
+
+.timeline-entry::before {
+  display: none;
+}
+.timeline::before {
+  display: none;
+}
+
+.timeline-header {
+  transform: none;
+}
