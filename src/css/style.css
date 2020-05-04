@@ -11,11 +11,16 @@ body {
   font-size: 1.75rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 10px;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -51,7 +56,7 @@ h6 {
 
 p {
   margin-top: 0;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
 }
 
 /* Common styling */
@@ -62,7 +67,7 @@ ul {
 
   margin-bottom: 1rem;
 
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
 }
 
 .bold {
@@ -70,52 +75,42 @@ ul {
 }
 
 a {
-  color: #0078D7;
+  color: #0078d7;
 }
 
 /* site specific */
-html, body {
+html,
+body {
   margin: 0;
 
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .wrapper {
-  width: 100%;
   margin: auto;
 }
 
 header {
   width: 100%;
 
-  background-color: #F0F0F0;
-}
-
-#header-image {
-  height: 150px;
-
-  background-image: url("img/bg1.jpg");
-
-  -webkit-background-size: cover;
-  background-size: cover;
-
-  background-position: center;
-
-  overflow: hidden;
+  background-color: #f0f0f0;
 }
 
 #header-logo {
   position: relative;
 
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-  padding: 10px;
-
-  border-bottom: 5px solid #D0D0D0;
-  border-top: 5px solid #D0D0D0;
+  border-bottom: 5px solid #d0d0d0;
+  border-top: 5px solid #d0d0d0;
+}
+#header-logo > .auto-wrap {
+  align-items: end;
 }
 
-header h1, header h5 {
+header h1,
+header h5 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -138,7 +133,7 @@ menu ul {
 }
 
 menu a {
-  color: #529ECC;
+  color: #529ecc;
   text-decoration: none;
 }
 
@@ -167,7 +162,6 @@ menu a {
   position: relative;
 }
 
-
 .card-content {
   background-color: rgba(0, 0, 0, 0.75);
 
@@ -185,54 +179,31 @@ menu a {
 }
 
 .card-header a {
-  color: #FFF;
+  color: #fff;
 }
 
 .card-desc {
-  color: #FFF;
+  color: #fff;
   padding: 10px;
-}
-
-.rehnamusiken {
-  background-image: url('../img/rehnamusiken.png');
-}
-
-.portfoliovaja {
-  background-image: url('../img/portfoliovaja.png');
-}
-
-.peetiskingdom {
-  background-image: url('../img/peetiskingdom.png');
 }
 
 #contact-info {
   text-align: left;
   font-style: normal;
   font-size: 1.4rem;
+  white-space: nowrap;
 
+  vertical-align: bottom;
   display: grid;
-  grid-template: auto auto auto auto / auto 1fr;
-  grid-column-gap: 4px;
-  grid-row-gap: 4px;
-  margin-top: 8px;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: min-content min-content;
 }
 
-.contact-category {
-  text-align: left;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.category-value {
-  text-align: left;
-}
-#telephone {
-  grid-row-start: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-#email {
-  grid-row-start: 4;
-  grid-column-start: 1;
-  grid-column-end: 3;
+.auto-wrap {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 1rem;
+  gap: 1rem;
 }

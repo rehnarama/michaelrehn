@@ -1,12 +1,12 @@
 /* screen-width >= 992px */
 
 html {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .wrapper {
-    width: 900px;
-    max-width: 100vw;
+  width: 900px;
+  max-width: 100vw;
 }
 
 #header-image {
@@ -14,91 +14,37 @@ html {
 }
 
 menu ul {
-    justify-content: center;
+  justify-content: center;
 }
 
 menu li {
-    margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 .flex {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .accordion {
-    width: 100%;
+  width: 100%;
 }
 
 .card {
-    flex-basis: 0;
-    height: 290px;
+  flex-basis: 0;
+  height: 290px;
 }
 
 .card:hover {
-    flex-grow: 3;
+  flex-grow: 3;
 }
 .card:hover .card-content {
-    top: 0;
+  top: 0;
 }
 
 .card-content {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    top: calc(100% - 40px);
-}
-
-#contact-info {
-  grid-template: auto auto / 1fr auto auto 1fr;
-}
-
-#github-link {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  text-align: right;
-}
-#linkedin-link {
-  grid-column-start: 4;
-  grid-row-start: 1;
-}
-#github-icon {
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-#linkedin-icon {
-  grid-column-start: 3;
-  grid-row-start: 1;
-}
-#telephone, #email {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  text-align: center;
-}
-
-.contact-category {
-  text-align: right;
-}
-
-#links {
+  bottom: 0;
+  left: 0;
+  right: 0;
   position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.center {
-  display: flex;
-  justify-self: center;
-  width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-.center > *:first-child {
-  text-align: right;
-  width: 50%;
-  margin-right: 4px;
-}
-.center > *:last-child {
-  text-align: left;
-  width: 50%;
+  top: calc(100% - 40px);
 }
