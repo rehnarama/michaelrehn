@@ -48,3 +48,8 @@ menu li {
   position: absolute;
   top: calc(100% - 40px);
 }
+
+
+.auto-wrap {
+  grid-template-columns: auto auto;
+}
