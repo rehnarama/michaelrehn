@@ -37,14 +37,14 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h4 {
   font-weight: normal;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h5 {
@@ -53,12 +53,16 @@ h5 {
 
 h6 {
   font-size: 1.25rem;
+  text-decoration: underline;
 }
 
 p {
   font-size: 1.5rem;
-  margin-top: 0;
+  margin-bottom: 0;
   font-family: "Arvo", serif;
+}
+p:first-child {
+  margin-top: 0;
 }
 
 /* Common styling */
@@ -222,4 +226,9 @@ footer {
 
 footer, header {
   page-break-inside: avoid;
+}
+
+section {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
