@@ -93,15 +93,13 @@ body {
   background-color: #fafafa;
 }
 
-
-
-header, footer {
+header,
+footer {
   background-color: #f0f0f0;
   width: 100%;
   position: relative;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  page-break-inside: avoid;
 
   border-bottom: 5px solid #d0d0d0;
   border-top: 5px solid #d0d0d0;
@@ -188,7 +186,6 @@ menu a {
   padding: 10px;
 }
 
-
 address {
   text-align: left;
   font-style: normal;
@@ -209,23 +206,17 @@ header address {
   justify-content: start;
 }
 
-
 footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-
 .auto-wrap {
   display: grid;
   grid-gap: 1rem;
   gap: 1rem;
   vertical-align: top;
-}
-
-footer, header {
-  page-break-inside: avoid;
 }
 
 section {
