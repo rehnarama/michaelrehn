@@ -6,8 +6,6 @@
 
 
 .timeline-entry {
-  padding-bottom: 10px;
-
   position: relative;
   page-break-inside: avoid;
 }
@@ -24,7 +22,7 @@
 
   background-color: #ff7827;
 
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 
   text-align: center;
   line-height: 2rem;
