@@ -89,9 +89,6 @@ body {
   background-color: #fafafa;
 }
 
-.wrapper {
-  margin: auto;
-}
 
 
 header, footer {
@@ -107,11 +104,6 @@ header, footer {
 }
 header > .auto-wrap {
   align-items: end;
-}
-
-footer address {
-  display: flex;
-  justify-content: space-between;
 }
 
 header h1,
@@ -192,19 +184,34 @@ menu a {
   padding: 10px;
 }
 
+
 address {
   text-align: left;
   font-style: normal;
   font-size: 1.4rem;
   white-space: nowrap;
 
-  vertical-align: bottom;
-  display: grid;
-  grid-gap: 0.5rem;
-  gap: 0.5rem;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: min-content min-content;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
+
+address > * {
+  margin-right: 1em;
+}
+
+header address {
+  justify-content: start;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 
 .auto-wrap {
   display: grid;
