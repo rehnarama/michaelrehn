@@ -223,3 +223,21 @@ section {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+@media print {
+  /* This hack will set the footer on the bottom of the second page when printing
+   * If bottom: 0 -> first page
+   * If bottom: -100% -> second page
+   * If bottom: -200% -> third page
+   * and so on
+   */
+  html {
+    position: relative;
+    height: 100%;
+  }
+
+  footer {
+    position: absolute;
+    bottom: -100%;
+  }
+}
