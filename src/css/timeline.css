@@ -4,54 +4,30 @@
   margin-bottom: 10px;
 }
 
-.timeline::before {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  width: 4.5rem;
-  height: 3px;
-
-  content: "";
-
-  background-color: #ff7827;
-}
 
 .timeline-entry {
   padding-bottom: 10px;
-  padding-left: 6rem;
 
   position: relative;
+  page-break-inside: avoid;
 }
 
-.timeline-entry::before {
-  position: absolute;
-  top: 4px;
-  /* fallback if does not support calc. calc to count for the offset of width 3 */
-  left: 2.25rem;
-  left: calc(2.25rem - 2px);
-  bottom: 0;
-  width: 3px;
-
-  content: "";
-
-  background-color: #ff7827;
-}
 
 .timeline-date {
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
+  position: absolute;
+  transform: translateX(calc(-100% - 8px));
+  
+  padding: 8px;
+  border-radius: 8px;
 
   flex-shrink: 0;
-  margin-right: 1rem;
 
   background-color: #ff7827;
 
   color: rgba(255, 255, 255, 0.8);
 
   text-align: center;
-  line-height: 4.5rem;
+  line-height: 2rem;
 
   font-weight: bold;
 
@@ -70,5 +46,4 @@
 .timeline-header {
   display: flex;
   align-items: center;
-  transform: translateX(-6rem);
 }

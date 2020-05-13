@@ -12,3 +12,9 @@
 .timeline-header {
   transform: none;
 }
+
+.timeline-date {
+  position: static;
+  transform: none;
+  margin-right: 8px;
+}
