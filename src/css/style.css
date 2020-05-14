@@ -199,11 +199,16 @@ address {
 }
 
 address > * {
-  margin-right: 1em;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+address > * > *:first-child {
+  margin-right: 8px;
 }
 
-header address {
-  justify-content: start;
+address img.contact-category {
+  object-fit: contain;
 }
 
 footer {

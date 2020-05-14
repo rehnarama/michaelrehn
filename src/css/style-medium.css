@@ -56,11 +56,13 @@ menu li {
 }
 
 header address {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 8px;
+  gap: 8px;
 }
 
 header address .contact-category {
   display: inline-block;
-  min-width: 5em;
 }
