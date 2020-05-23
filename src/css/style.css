@@ -196,6 +196,7 @@ address {
   justify-content: space-between;
 
   width: 100%;
+  overflow-x: auto;
 }
 
 address > * {
@@ -230,19 +231,14 @@ section {
 }
 
 .projects {
-  display: flex;
-  max-height: 150px;
-  transition: max-height 0.2s;
-}
-
-.projects:hover {
-  max-height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .projects > * {
-  flex: 1 1 0;
-  transition: flex-grow 0.2s;
   position: relative;
+  height: 150px;
 }
 
 .projects .desc {
@@ -269,16 +265,6 @@ section {
 }
 #notes-img, #liveresults-img {
   object-position: top;
-}
-
-.projects > *:hover {
-  flex-grow: 3;
-}
-.projects:hover .desc {
-  opacity: 0;
-}
-.projects > *:hover > .desc {
-  opacity: 1;
 }
 
 @media print {
