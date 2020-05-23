@@ -229,6 +229,58 @@ section {
   margin-bottom: 16px;
 }
 
+.projects {
+  display: flex;
+  max-height: 150px;
+  transition: max-height 0.2s;
+}
+
+.projects:hover {
+  max-height: 300px;
+}
+
+.projects > * {
+  flex: 1 1 0;
+  transition: flex-grow 0.2s;
+  position: relative;
+}
+
+.projects .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  transition: opacity 0.2s;
+
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  color: white;
+  text-decoration: underline;
+  text-overflow: ellipsis;
+}
+
+.projects img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#notes-img, #liveresults-img {
+  object-position: top;
+}
+
+.projects > *:hover {
+  flex-grow: 3;
+}
+.projects:hover .desc {
+  opacity: 0;
+}
+.projects > *:hover > .desc {
+  opacity: 1;
+}
+
 @media print {
   /* This hack will set the footer on the bottom of the second page when printing
    * If bottom: 0 -> first page
