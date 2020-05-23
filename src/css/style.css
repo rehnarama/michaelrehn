@@ -196,7 +196,6 @@ address {
   justify-content: space-between;
 
   width: 100%;
-  overflow-x: auto;
 }
 
 address > * {
