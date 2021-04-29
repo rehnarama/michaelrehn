@@ -1,0 +1,4 @@
+
+.timeline-entry {
+  grid-template-columns: 10rem auto 1fr;
+}
