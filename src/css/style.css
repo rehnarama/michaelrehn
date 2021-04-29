@@ -235,14 +235,16 @@ section {
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .projects > * {
   position: relative;
   height: 150px;
+  width: 200px;
+  flex-shrink: 0;
 }
 
 .projects .desc {
